@@ -1,0 +1,88 @@
+@import url(reset.css);
+
+#Nav{
+    width: 100vw;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.Left
+.Center
+.Right {
+    display: flex;
+    flex-direction: column;
+}
+
+.Left {
+    margin-left: 20px;
+}
+
+.Left img,
+.Right img {
+    margin-right: 20px;
+}
+
+.Center {
+    justify-content: center;
+}
+
+.Sidebar {
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.MenuItems {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+}
+
+.grid-container {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: whitesmoke;
+    gap: 10px 10px;
+    place-items: center;
+}
+
+.grid-item {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.grid-item span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+}
+
+.grid-item p {
+    padding-left: 10px;
+}
+
+.grid-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+
